@@ -20,7 +20,7 @@ test("Button has correct initial color", () => {
 
   // expect the text to be "Change to red"
 
-  expect(colorButton.toHaveTextContent).toBe("Change to Medium Voilet Red");
+  expect(colorButton).toHaveTextContent("Change to Medium Voilet Red");
 });
 
 test("initial conditions", () => {
